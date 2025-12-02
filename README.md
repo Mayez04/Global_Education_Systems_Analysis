@@ -70,12 +70,16 @@ streamlit run dashboard.py
 ## Main Features
 
 -**Data Collection:** Automated extraction from UNESCO, World Bank, and GeoNames
+
 -**Processing:** Cleaning, normalization, and merging of data
+
 -**Visualization:** Interactive dashboard built with Streamlit
+
 -**Analysis:** Jupyter notebook for in-depth exploration
 
 ## Useful Folders:
 -If you want to see the demo you just need to open : **Demo.mp4**
+
 
 
 
