@@ -34,8 +34,9 @@ pip (Python package manager)
 1-Clone the repository:
 
 Bash
-git clone [REPO_URL]
-cd Projet-DAjuc
+git clone https://github.com/Mayez04/Global_Education_Systems_Analysis.git
+cd Global_Education_Systems_Analysis
+
 
 2- Create and activate a virtual environment:
 
@@ -72,6 +73,7 @@ streamlit run dashboard.py
 -**Processing:** Cleaning, normalization, and merging of data
 -**Visualization:** Interactive dashboard built with Streamlit
 -**Analysis:** Jupyter notebook for in-depth exploration
+
 
 
 
