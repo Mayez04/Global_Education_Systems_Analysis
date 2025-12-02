@@ -74,6 +74,9 @@ streamlit run dashboard.py
 -**Visualization:** Interactive dashboard built with Streamlit
 -**Analysis:** Jupyter notebook for in-depth exploration
 
+## Useful Folders:
+-If you want to see the demo you just need to open : **Demo.mp4**
+
 
 
 
