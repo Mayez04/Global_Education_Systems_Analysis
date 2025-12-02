@@ -1,88 +1,77 @@
-# Projet DAjuc - Analyse des Données Éducatives
+# Global Education Systems Analysis
 
-Ce projet est une solution complète pour l'analyse des données éducatives, comprenant la collecte, le traitement, la visualisation et la présentation des données sur l'éducation à travers le monde.
+This project is a complete solution for educational data analysis, including the collection, processing, visualization, and presentation of education-related data from around the world.
+## Project Objectives
 
-## Objectifs du Projet
-
-- Collecter et homogénéiser des données éducatives depuis diverses sources (UNESCO, World Bank, GeoNames)
-- Analyser l'impact des politiques de gratuité sur la durée des études
-- Évaluer la rétention scolaire dans différentes régions
-- Créer des visualisations interactives pour l'exploration des données
-
-## Structure du Projet
+-Collect and standardize educational data from various sources (UNESCO, World Bank, GeoNames)
+-Analyze the impact of free education policies on the duration of studies
+-Evaluate school retention rates across different regions
+-Create interactive visualizations for data exploration
+## Project Structure
 
 ```
 .
-├── data_collectors/          # Scripts de collecte de données
-│   ├── unesco_collector.py   # Données UNESCO UIS
-│   ├── worldbank_collector.py # Données World Bank
-├── data_processing/          # Traitement des données
-│   ├── data_cleaner.py      # Nettoyage des données
-│   └── data_merger.py       # Fusion des données
-├── data/                    # Stockage des données
-├── EDA.ipynb               # Notebook d'analyse exploratoire
-├── dashboard.py            # Interface interactive Streamlit
-├── main.py                 # Point d'entrée principal
-├── config.py              # Configuration du projet
-└── requirements.txt       # Dépendances Python
+├── data_collectors/          # Data collection scripts
+│   ├── unesco_collector.py   # UNESCO UIS data
+│   ├── worldbank_collector.py # World Bank data
+├── data_processing/          # Data processing
+│   ├── data_cleaner.py       # Data cleaning
+│   └── data_merger.py        # Data merging
+├── data/                     # Data storage
+├── EDA.ipynb                 # Exploratory data analysis notebook
+├── dashboard.py              # Interactive Streamlit interface
+├── main.py                   # Main entry point
+├── config.py                 # Project configuration
+└── requirements.txt          # Python dependencies
 ```
 
-## Prérequis
+## Prerequisites
 
-- Python 3.8 ou supérieur
-- pip (gestionnaire de paquets Python)
-
+Python 3.8 or higher
+pip (Python package manager)
 ## Installation
 
-1. Clonez le dépôt :
-```bash
-git clone [URL_DU_REPO]
+1-Clone the repository:
+
+Bash
+git clone [REPO_URL]
 cd Projet-DAjuc
-```
 
-2. Créez un environnement virtuel et activez-le :
-```bash
+2- Create and activate a virtual environment:
+
+Bash
 python -m venv venv
-# Sur Windows
+# On Windows
 venv\Scripts\activate
-# Sur Unix/MacOS
+# On Unix/MacOS
 source venv/bin/activate
-```
 
-3. Installez les dépendances :
-```bash
+3-Install the dependencies:
+
+Bash
 pip install -r requirements.txt
-```
 
-## Utilisation
-
-### 1. Collecte et Traitement des Données
-
-Pour exécuter le pipeline complet de collecte et de traitement des données :
-```bash
+## Usage
+1. Data Collection and Processing
+To run the full data collection and processing pipeline:
+Bash
 python main.py
-```
-
-### 2. Exploration des Données
-
-Pour l'analyse exploratoire des données, ouvrez le notebook Jupyter :
-```bash
+2. Data Exploration
+For exploratory data analysis, open the Jupyter notebook:
+Bash
 jupyter notebook EDA.ipynb
-```
-
-### 3. Dashboard Interactif
-
-Pour lancer le dashboard interactif :
-```bash
+4. Interactive Dashboard
+To launch the interactive dashboard:
+Bash
 streamlit run dashboard.py
-```
 
 
-## Fonctionnalités Principales
+## Main Features
 
-- **Collecte de Données** : Extraction automatisée depuis UNESCO, World Bank et GeoNames
-- **Traitement** : Nettoyage, normalisation et fusion des données
-- **Visualisation** : Dashboard interactif avec Streamlit
-- **Analyse** : Notebook Jupyter pour l'exploration approfondie
+-**Data Collection:** Automated extraction from UNESCO, World Bank, and GeoNames
+-**Processing:** Cleaning, normalization, and merging of data
+-**Visualization:** Interactive dashboard built with Streamlit
+-**Analysis:** Jupyter notebook for in-depth exploration
+
 
 
